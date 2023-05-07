@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+black = "*"
+pypdf = "*"
+jupyterlab = "*"
+numpy = "*"
+pandas = "*"
+pypdf2 = "*"
+nltk = "*"
+spacy = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
