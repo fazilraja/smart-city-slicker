@@ -12,6 +12,8 @@ pandas = "*"
 pypdf2 = "*"
 nltk = "*"
 spacy = "*"
+sklearn = "*"
+scikit-learn = "*"
 
 [dev-packages]
 

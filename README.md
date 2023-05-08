@@ -7,7 +7,101 @@ The term “smart city” is widely used, but there is no consensus on the defin
 Clone the repo
 
 # How to run
-pipenv run python project3.py --document city.pdf 
+```pipenv run python project3.py --document "city.pdf"``` the command for document has to be in quotations. ```pipenv run python -m pytest``` for test
+
+# tree
+.
+├── COLLABORATORS
+├── LICENSE
+├── Pipfile
+├── Pipfile.lock
+├── README.md
+├── __pycache__
+│   └── contractions.cpython-310.pyc
+├── contractions.py
+├── docs
+├── model.pkl
+├── project3.ipynb
+├── project3.py
+├── setup.cfg
+├── setup.py
+├── smartcity
+│   ├── AK Anchorage.pdf
+│   ├── AL Birmingham.pdf
+│   ├── AL Montgomery.pdf
+│   ├── AZ Scottsdale AZ.pdf
+│   ├── AZ Tucson.pdf
+│   ├── CA Chula Vista.pdf
+│   ├── CA Fremont.pdf
+│   ├── CA Fresno.pdf
+│   ├── CA Long Beach.pdf
+│   ├── CA Moreno Valley.pdf
+│   ├── CA Oakland.pdf
+│   ├── CA Oceanside.pdf
+│   ├── CA Riverside.pdf
+│   ├── CA Sacramento.pdf
+│   ├── CA San Jose_0.pdf
+│   ├── CT NewHaven.pdf
+│   ├── DC_0.pdf
+│   ├── FL Jacksonville.pdf
+│   ├── FL Miami.pdf
+│   ├── FL Orlando.pdf
+│   ├── FL St. Petersburg.pdf
+│   ├── FL Tallahassee.pdf
+│   ├── FL Tampa.pdf
+│   ├── GA Atlanta.pdf
+│   ├── GA Brookhaven.pdf
+│   ├── GA Columbus.docx
+│   ├── IA Des Moines.pdf
+│   ├── IN Indianapolis.pdf
+│   ├── KY Louisville.pdf
+│   ├── LA Baton Rouge.pdf
+│   ├── LA New Orleans.pdf
+│   ├── LA Shreveport.pdf
+│   ├── MA Boston.pdf
+│   ├── MD Baltimore.pdf
+│   ├── MI Detroit.pdf
+│   ├── MI Port Huron and Marysville.pdf
+│   ├── MN Minneapolis St Paul.pdf
+│   ├── MO St. Louis.pdf
+│   ├── NC Charlotte.pdf
+│   ├── NC Greensboro.pdf
+│   ├── NC Raleigh.pdf
+│   ├── NE Lincoln.pdf
+│   ├── NE Omaha.pdf
+│   ├── NJ Jersey City.pdf
+│   ├── NJ Newark.pdf
+│   ├── NM Albuquerque.docx
+│   ├── NV Las Vegas.pdf
+│   ├── NV Reno.pdf
+│   ├── NY Albany Troy Schenectady Saratoga Springs.pdf
+│   ├── NY Buffalo.pdf
+│   ├── NY Mt Vernon Yonkers New Rochelle.pdf
+│   ├── NY Rochester.pdf
+│   ├── OH Akron.pdf
+│   ├── OH Canton.pdf
+│   ├── OH Cleveland.pdf
+│   ├── OH Toledo.pdf
+│   ├── OK Oklahoma City.pdf
+│   ├── OK Tulsa.pdf
+│   ├── RI Providence.pdf
+│   ├── SC Greenville.pdf
+│   ├── TN Chattanooga.pdf
+│   ├── TN Memphis.pdf
+│   ├── TN Nashville.pdf
+│   ├── TX Lubbock.pdf
+│   ├── VA Newport News.pdf
+│   ├── VA Norfolk.pdf
+│   ├── VA Richmond.pdf
+│   ├── VA Virginia Beach.pdf
+│   ├── WA Seattle.pdf
+│   ├── WA Spokane.pdf
+│   └── WI Madison.pdf
+├── smartcity_eda.tsv
+├── smartcity_predict.tsv
+└── tests
+    └── test_project3.py
+
 
 # External libraries
 import PyPDF2
@@ -44,4 +138,4 @@ loads the model used in Part 1
 Gets arguments and runs the code
 
 # Assumptions
-The model loaded but I could not fit the model correctly due to the features not being the same size. The trained model was of size 20353 while the test tfidf vector only had 1680 features. 
+The model loaded but I could not fit the model correctly due to the features not being the same size. The trained model was of size 20353 while the test tfidf vector only had 1680 features. There was not much testing done as it is hard testing a model. The testing of file creation and writing was done manually. It is assumed you have all the packages installed. 
