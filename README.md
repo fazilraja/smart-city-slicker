@@ -1,4 +1,4 @@
-# cs5293sp23-project3
+# Smart City Slicker
 
 # Description
 The term “smart city” is widely used, but there is no consensus on the definition. Many citizens and stakeholders are unsure about what a smart city means in their community and how it affects them. Imagine you are a stakeholder in a rising Smart City and want to know more about themes and concepts about existing smart cities. You also want to know where does your smart city place among others. In this project, you will use text analysis techniques to investigate themes and similarities for smart cities with the use of cluster analysis, topic modeling, and summarization. This project can help you as a stakeholder understand smart cities using data from the 2015 Smart City Challenge.
