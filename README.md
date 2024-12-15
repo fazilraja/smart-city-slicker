@@ -137,5 +137,3 @@ loads the model used in Part 1
 ## main
 Gets arguments and runs the code
 
-# Assumptions
-The model loaded but I could not fit the model correctly due to the features not being the same size. The trained model was of size 20353 while the test tfidf vector only had 1680 features. There was not much testing done as it is hard testing a model. The testing of file creation and writing was done manually. It is assumed you have all the packages installed. 
